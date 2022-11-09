@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import {LOBDetailsTeacherModal} from "../modals/LOBDetailsTeacherModal"
 const Home = () => {
   return (
     <div className="dhiwise-navigation">
@@ -10,7 +10,8 @@ const Home = () => {
         <a href="https://www.dhiwise.com">Dhiwise</a>. Quickly use below links
         to navigate through all pages.
       </p>
-      <ul></ul>
+      
+      <LOBDetailsTeacherModal />
     </div>
   );
 };
